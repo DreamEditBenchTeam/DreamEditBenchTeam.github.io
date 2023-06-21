@@ -196,30 +196,30 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Subject-driven image generation aims at generating images containing customized subjects,
-which has recently drawn enormous attention from the research community. Nevertheless,
-the previous works cannot precisely control the background and position of the target sub-
-ject. In this work, we aspire to fill the void of the existing subject-driven generation tasks.
-To this end, we propose two novel subject-driven editing sub-tasks, i.e., Subject Replace-
-ment and Subject Addition. The new tasks are challenging in multiple aspects: replacing
-a subject with a customized one can totally change its shape, texture, and color, while
-adding a target subject to a designated position in a provided scene necessitates a rational
-context-aware posture of the subject. To conquer these two novel tasks, we first manually
-curate a new dataset called DreamEditBench containing 22 different types of subjects, and
-440 source images, which cover diverse scenarios with different difficulty levels. We plan
-to host DreamEditBench as a platform and hire trained evaluators for standardized hu-
-man evaluation. We also devise an innovative method DreamEditor to resolve these tasks
-by performing iterative generation, which enables a smooth adaptation to the customized
-subject. In this project, we conduct automatic and human evaluations to understand the
-performance of our DreamEditor and baselines on DreamEditBench. We found that the
-new tasks are challenging for the existing models. For Subject Replacement, we found that
-the existing models are particularly sensitive to the shape and color of the original subject.
-When the original subject and the customized subject are highly different, the model failure
-rate will dramatically increase. For Subject Addition, we found that the existing models
-cannot easily blend the customized subjects into the background smoothly, which causes
-noticeable artifacts in the generated image. We hope that DreamEditBench can become
-a standardized platform to enable future investigations towards building more controllable
-subject-driven image editing.
+                      Subject-driven image generation aims at generating images containing customized subjects,
+          which has recently drawn enormous attention from the research community. Nevertheless,
+          the previous works cannot precisely control the background and position of the target sub-
+          ject. In this work, we aspire to fill the void of the existing subject-driven generation tasks.
+          To this end, we propose two novel subject-driven editing sub-tasks, i.e., Subject Replace-
+          ment and Subject Addition. The new tasks are challenging in multiple aspects: replacing
+          a subject with a customized one can totally change its shape, texture, and color, while
+          adding a target subject to a designated position in a provided scene necessitates a rational
+          context-aware posture of the subject. To conquer these two novel tasks, we first manually
+          curate a new dataset called DreamEditBench containing 22 different types of subjects, and
+          440 source images, which cover diverse scenarios with different difficulty levels. We plan
+          to host DreamEditBench as a platform and hire trained evaluators for standardized hu-
+          man evaluation. We also devise an innovative method DreamEditor to resolve these tasks
+          by performing iterative generation, which enables a smooth adaptation to the customized
+          subject. In this project, we conduct automatic and human evaluations to understand the
+          performance of our DreamEditor and baselines on DreamEditBench. We found that the
+          new tasks are challenging for the existing models. For Subject Replacement, we found that
+          the existing models are particularly sensitive to the shape and color of the original subject.
+          When the original subject and the customized subject are highly different, the model failure
+          rate will dramatically increase. For Subject Addition, we found that the existing models
+          cannot easily blend the customized subjects into the background smoothly, which causes
+          noticeable artifacts in the generated image. We hope that DreamEditBench can become
+          a standardized platform to enable future investigations towards building more controllable
+          subject-driven image editing.
             
           </p>
         </div>
@@ -259,7 +259,9 @@ prompt to guide the DDIM inversion and gradually in-paint a subject more similar
     </div>
   </div>
 </section>
-
+<br>
+<br>
+<br>
 <section class="hero">
 <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
@@ -282,7 +284,7 @@ prompt to guide the DDIM inversion and gradually in-paint a subject more similar
       <div class="column is-four-fifths">
         <h2 class="title is-3">Subject Addition</h2>
         <div>
-        <img src="static/images/result_addition.png">
+        <img src="static/images/result_add.png">
         </div>
         <h5 class="subtitle has-text-centered">
           Results on Subject Addition Task Compared with Baselines
